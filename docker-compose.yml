@@ -9,7 +9,7 @@ services:
     ports:
       - "80:80"
     env_file:
-      - message.env
+      - variables.env
   redis:
     image: redis
     ports:
